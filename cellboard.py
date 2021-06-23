@@ -25,7 +25,7 @@ class CellBoard(object):
         self.cells[self.i_blank] = -1
         while True:
             for i in range(50):
-                key = K_UP + random.randint(0, 3)
+                key = K_UP - random.randint(0, 3)
                 self.cell_move(key)
             self.restore = self.is_board_be_restore()
             if not self.restore:

@@ -1,3 +1,4 @@
+#encoding: utf-8
 import os, sys
 import random, pygame
 from pygame.locals import *
